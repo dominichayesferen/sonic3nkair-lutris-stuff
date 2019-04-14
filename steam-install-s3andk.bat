@@ -5,7 +5,7 @@ echo msgbox "Please proceed to install SEGA Mega Drive & Genesis Classics. Press
 wscript %tmp%\tmp.vbs
 del %tmp%\tmp.vbs
 "C:\Program Files\Steam\Steam.exe"
-echo msgbox "Now please wait until Steam is finished downloading all games... Press OK once Steam has finished downloading SEGA Mega Drive & Genesis Classics and any other updates to finish the installation process." > %tmp%\tmp.vbs
+echo msgbox "Now please wait until Steam is finished downloading all game content... Press OK once Steam has finished downloading SEGA Mega Drive & Genesis Classics and any other updates to finish the installation process." > %tmp%\tmp.vbs
 wscript %tmp%\tmp.vbs
 del %tmp%\tmp.vbs
 "C:\Program Files\Steam\Steam.exe" "-shutdown"
