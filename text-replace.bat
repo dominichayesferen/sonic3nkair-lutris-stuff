@@ -1,9 +1,9 @@
 Const ForReading = 1    
 Const ForWriting = 2
 
-strFileName = Wscript.Arguments(0)
-strOldText = Wscript.Arguments(1)
-strNewText = Wscript.Arguments(2)
+strFileName = "C:\sonic3air_game\config.json"
+strOldText = Wscript.Arguments(0)
+strNewText = Wscript.Arguments(1)
 
 Set objFSO = CreateObject("Scripting.FileSystemObject")
 Set objFile = objFSO.OpenTextFile(strFileName, ForReading)
