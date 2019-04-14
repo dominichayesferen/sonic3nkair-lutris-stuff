@@ -1,0 +1,5 @@
+#!/bin/bash
+
+gamelocat="$1"
+
+sed -i 's/"WindowSize"/"UseSoftwareRenderer": false,\n	"WindowSize"/g' "$gamelocat/sonic3air_game/config.json"
