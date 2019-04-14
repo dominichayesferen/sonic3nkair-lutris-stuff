@@ -3,3 +3,4 @@
 gamelocat="$1"
 
 sed -i 's/"WindowSize"/"UseSoftwareRenderer": true,\n	"WindowSize"/g' "$gamelocat/sonic3air_game/config.json"
+sleep 10
